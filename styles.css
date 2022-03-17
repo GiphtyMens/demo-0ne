@@ -1,0 +1,160 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+body {
+  background-color: rgb(46, 46, 46);
+  padding: 20px;
+}
+
+.main {
+  height: 120vh;
+  width: 70vw;
+  /* border: 1px solid black; */
+  display: grid;
+  grid-template-columns: 30% 70%;
+  margin: 0 auto;
+  box-shadow: 5px 5px 10px 1px rgb(17, 17, 17);
+  background-color: white;
+  border-radius: 10px;
+}
+.ink {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.583);
+}
+.image {
+  background-image: url("./marvin-bellendorf-pgG-HrFh6s8-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.image,
+.booking {
+  height: 100%;
+  /* border: 1px solid black; */
+}
+
+.booking {
+  padding: 40px;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+.text > h2 {
+  font-size: 11px;
+}
+.tab > h2 {
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.tab-container {
+  height: 7rem;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+
+.tab-container > ul {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  list-style: none;
+}
+.tab-container > ul > li {
+  /* border: 1px solid black; */
+  height: 100%;
+  width: 5rem;
+  padding: 4px;
+  text-align: center;
+}
+ul > li > div {
+  height: 4.5rem;
+  width: 100%;
+  border: 1px solid grey;
+  margin-bottom: 6px;
+  /* background-color: darkred; */
+  border-radius: 10px;
+}
+
+ul > li > h5 {
+  font-size: 10px;
+}
+.info-container > h2 {
+  text-transform: uppercase;
+  font-size: 11px;
+}
+.in {
+  display: flex;
+  justify-content: space-between;
+}
+
+.in > input {
+  border: none;
+  border-bottom: 1.8px solid rgb(128, 128, 128);
+  height: 2rem;
+  width: 18rem;
+  padding-left: 1rem;
+  outline: none;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+/* calender */
+.cal {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  height: 50vh;
+  width: 100%;
+  padding: 20px;
+}
+.cal-date,
+.cal-time {
+  /* border: 1px solid black; */
+  height: 100%;
+  width: 100%;
+}
+.cal-date > h3,
+.cal-time > h3 {
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+#timer {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+#t {
+  height: 2.95rem;
+  width: 100%;
+  border: 1px solid rgb(80, 80, 80);
+  margin: 0 0 20px 0;
+  padding: 10px 40px;
+}
+
+#t:hover {
+  background-color: darkred;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.comment > h2 {
+  text-transform: uppercase;
+  font-size: 11px;
+}
+.comment > input {
+  border: none;
+  border-bottom: 2px solid gray;
+  width: 100%;
+  height: 2rem;
+  text-transform: uppercase;
+  font-size: 10px;
+  outline: none;
+}
